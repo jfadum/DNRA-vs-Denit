@@ -243,8 +243,7 @@ y_O2_NOO = 4*f_NOO*(1-f_NOO)/dB
 
 # Chemoautotrophic anammox (NH4 + NO2 --> NO3 + N2)
 y_NH4_AOX = 1./75                  # mol N biomass per mol NH4 (Lotti et al. 2014 Water Research) ***Rounded to nearest whole number
-y_NO2_AOX = 1./89                  # mol N biomass per mol NO2 (Lotti et al. 2014 Water Research) ***Rounded to nearest whole number
-#y_NO2_AOX = 0.03                   #For alternative anammox competition scenario 
+y_NO2_AOX = 1./89                  # mol N biomass per mol NO2 (Lotti et al. 2014 Water Research) ***Rounded to nearest whole number 
 e_N2_AOX = 150                     # mol N-N2 formed per mol biomass N synthesised ***Rounded to nearest whole number
 e_NO3_AOX = 13                     # mol NO3 formed per mol biomass N synthesised ***Rounded to nearest whole number
 
